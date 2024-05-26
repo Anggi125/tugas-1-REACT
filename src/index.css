@@ -1,0 +1,39 @@
+body{
+  background-image: url(public/bagground.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+ 
+}
+.card{
+  background-color: black;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.box-besar{
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  color: white;
+}
+h3,p{
+  color: #ccc;
+  text-align: center;
+}
